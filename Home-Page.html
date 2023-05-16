@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>3PI DOGS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="perros, tienda perros, juguetes perros, accesorios perros, peluqueria canina, comida perros, ropa perros" />
+    <link rel="stylesheet" type="text/css" href="Estilo/Home-Page.css" />
+    <script src="jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="Ficheros/Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="Ficheros/Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="Ficheros/Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="Ficheros/Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="Ficheros/Servicios.html" class="linkServicios">Servicios</a>
+            <a href="Ficheros/Citas.html" class="linkCitas">Citas</a>
+            <a href="Ficheros/Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="Ficheros/FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <input class="buscador" type="text" id="buscador" value="">
+            <button type="button" class="btnBuscar"><img src="Imagenes/lupa.jpg" height="10" width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="Imagenes/portada.jpg">
+            <div class="felicidad">LA FELICIDAD QUE MERECE TU AMIGO</div>
+            <div class="info">Comida, juguetes, ropa canina, servicios de peluquería...<br>
+                ¡No te pierdas todas las ofertas de 3PI DOGS que le esperán a tu perro!</div>
+            <div class="horario">De Lunes a Viernes<br>
+                de 10:00 a 13:30 y de<br>
+                16:00 a 20:30<br>
+                *Festivos incluídos
+            </div>
+        </div>
+        <div class="menu">
+            <div class="elipeJuguetes">
+                <a href="Ficheros/Juguetes.html">
+                    <img class="elipse1" src="Imagenes/juguetes-link.jpg" width="210" height="210">
+                    <div class="txtjuguetes">Juguetes</div>
+                </a>
+            </div>
+            <div class="elipeComida">
+                <a href="Ficheros/Comida.html">
+                    <img class="elipse2" src="Imagenes/comida-link.jpg" width="210" height="210">
+                    <div class="txtcomida">Comida</div>
+                </a>
+            </div>
+            <div class="elipeRopa">
+                <a href="Ficheros/Ropa.html">
+                    <img class="elipse3" src="Imagenes/ropa-link.jpg" width="210" height="210">
+                    <div class="txtropa">Ropa</div>
+                </a>
+            </div>
+            <div class="elipeAccesorios">
+                <a href="Ficheros/Accesorios.html">
+                    <img class="elipse4" src="Imagenes/accesorios-link.jpg" width="210" height="210">
+                    <div class="txtaccesorios">Accesorios</div>
+                </a>
+            </div>
+        </div>
+        <div class="serviciosPresentacion">
+            <img class="fotoServicios" src="Imagenes/peluqueria-canina.jpg" width="674" height="453">
+            <div class="txtServicios">
+                Desde 3PI DOGS ofrecemos el mejor cuidado y el mejor tratamiento de peluquería, lavado, pedicure para tu
+                perro.
+                Echale un vistazo a todos nuestros servicios, y a las ofertas de los abonos.
+                ¡Corre, no te quedes sin él!
+            </div>
+            <button class="btnServicios" onclick="window.location.href='Ficheros/Servicios.html'">Servicios</button>
+        </div>
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Juguetes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="perros, tienda perros, juguetes perros" />
+    <link rel="stylesheet" type="text/css" href="../Estilo/Juguetes.css" />
+    <script src="../jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="../Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="../Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="Servicios.html" class="linkServicios">Servicios</a>
+            <a href="Citas.html" class="linkCitas">Citas</a>
+            <a href="Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <input class="buscador" type="text" id="buscador" value="">
+            <button type="button" class="btnBuscar"><img src="../Imagenes/lupa.jpg" height="10" width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="../Imagenes/juguetes-intro.jpg">
+            <div class="viaje">Comienza su hermoso viaje con juguetes</div>
+            <div class="info">Divertirse y también cuidarse</div>
+        </div>
+        <div class="catalogo">
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="titprod1"> HUESO MORDEDOR </div>
+            <img class="imProd1" src="../Imagenes/hueso-vinilo.jpg">
+            <div class="prod1Precio">2,69 €</div>
+            <button class="btnProd1" onclick="window.location.href='Juguetes/Hueso.html'">Descripción</button>
+
+            <div class="titProd2"> CUERDA MORDEDORA </div>
+            <img class="imProd2" src="../Imagenes/cuerda.jpg">
+            <div class="prod2Precio">4,89 €</div>
+            <button class="btnProd2" onclick="window.location.href='Juguetes/Cuerda.html'">Descripción</button>
+
+            <div class="titProd3"> PELOTA FLOTANTE </div>
+            <img class="imProd3" src="../Imagenes/pelota-flotante.jpg">
+            <div class="prod3Precio">11,25 €</div>
+            <button class="btnProd3" onclick="window.location.href='Juguetes/Pelota.html'">Descripción</button>
+
+            <div class="titProd4"> BOLA DE GOMA CON CASCABEL </div>
+            <img class="imProd4" src="../Imagenes/cascabel.jpg">
+            <div class="prod4Precio">9,99 €</div>
+            <button class="btnProd4" onclick="window.location.href='Juguetes/Cascabel.html'">Descripción</button>
+
+            <div class="titProd5"> FRISBEE </div>
+            <img class="imProd5" src="../Imagenes/disco-flotante.jpg">
+            <div class="prod5Precio">12,95 €</div>
+            <button class="btnProd5" onclick="window.location.href='Juguetes/Frisbee.html'">Descripción</button>
+
+            <div class="titProd6"> JUEGO INTERACTIVO SOLITARIO </div>
+            <img class="imProd6" src="../Imagenes/juego-interactivo-solitario.jpg">
+            <div class="prod6Precio">13,29 €</div>
+            <button class="btnProd6" onclick="window.location.href='Juguetes/Solitario.html'">Descripción</a></button>
+        </div>
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="../Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="../Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="../Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

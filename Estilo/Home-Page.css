@@ -1,0 +1,617 @@
+/*Igual*/
+.cabecera {
+    position: absolute;
+    width: 1348px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    background: #03EBEB;
+    z-index: 999; 
+}
+
+.dropdown {
+    position: absolute;
+    left: 260px;
+    top:33px;
+  }
+
+  .btnProd{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+    background-color: #03EBEB;
+    border-color: #03EBEB;
+    border: none;
+
+  }
+
+  .btnProd:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+ 
+  .dropdown-content {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 36px;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background-color: #03EBEB;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+
+.linkHome-Page {
+    position: absolute;
+    width: 218px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkFAQS {
+    position: absolute;
+    left: 935px;
+    top: 33px;
+
+ 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkFAQS:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkNosotros {
+    position: absolute;
+    left: 753px;
+    top: 33px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkNosotros:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkCitas {
+    position: absolute;
+    left: 632px;
+    top: 33px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkCitas:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkServicios {
+    position: absolute;
+    left: 450px;
+    top: 33px;
+
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.linkServicios:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkJuguetes {
+    position: absolute;
+    left: 251px;
+    top: 33px;
+
+    width: 189px;
+    height: 57px;
+
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.buscador{
+    position: absolute;
+    left: 1035px;
+    top: 87px;
+}
+
+.btnBuscar{
+    position: absolute;
+    left: 1219px;
+    top: 87px;
+}
+
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+
+.footer {
+    position: absolute;
+    width: 1348px;
+    height: 250px;
+    left: 0px;
+    top: 1565px;
+
+    background: #000000;
+}
+
+.line1{
+    position: absolute;
+left: 8.26%;
+right: 60.56%;
+top: 13.96%;
+bottom: 86.04%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(0.26deg);
+}
+
+.titFooter{
+    position: absolute;
+left: 42.85%;
+right: 42.78%;
+top: 8.55%;
+bottom: 80.91%;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+.line2{
+    position: absolute;
+left: 60.69%;
+right: 8.12%;
+top: 14.53%;
+bottom: 85.47%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(0.26deg);
+}
+
+.titVisitanos{
+    position: absolute;
+left: 8.26%;
+right: 77.36%;
+top: 27.92%;
+bottom: 61.54%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+}
+
+.direccion{
+    position: absolute;
+left: 8.26%;
+right: 75%;
+top: 44.73%;
+bottom: 28.49%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.titContacto{
+    position: absolute;
+left: 39.44%;
+right: 39.51%;
+top: 27.92%;
+bottom: 56.13%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+}
+
+.contacto{
+    position: absolute;
+left: 39.44%;
+right: 37.71%;
+top: 44.73%;
+bottom: 23.36%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+.titEnlaces{
+    position: absolute;
+left: 65.76%;
+right: 6.74%;
+top: 27.92%;
+bottom: 55.27%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+.derechos{
+    position: absolute;
+left: 34.79%;
+right: 32.01%;
+top: 82.34%;
+bottom: 7.41%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.facebook{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 46.87%;
+bottom: 45.87%;
+}
+
+.insta{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 63.13%;
+bottom: 39.61%;
+}
+
+.twitter{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 81.13%;
+bottom: 39.61%;
+}
+
+.introImagen {
+    position: absolute;
+    width: 1348px;
+    height: 700px;
+    left: 0px;
+    top: 123px;
+}
+
+.felicidad {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 580px;
+    height: 50px;
+    left: 710px;
+    top: 149px;
+
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.info {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 568px;
+    height: 239px;
+    left: 754px;
+    top: 340px;
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.horario {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 465px;
+    height: 207px;
+    left: 27px;
+    top: 586px;
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.menu {
+    position: absolute;
+    width: 1348px;
+    height: 391px;
+    left: 0px;
+    top: 821px;
+
+    background: #F4F3F3;
+}
+
+.elipeJuguetes{
+    z-index: 999;
+}
+
+
+.elipse1 {
+    position: absolute;
+    left: 10%;
+    right: 17.23%;
+    top: 10%;
+    bottom: 0%;
+    border-radius: 50%;
+    background-color:#A8A8A8
+}
+
+.elipse1:hover{
+    filter: brightness(80%);
+}
+
+
+.txtjuguetes {
+    position: absolute;
+    left: 12.99%;
+    right: 10%;
+    top: 62.65%;
+    bottom: 40.72%;
+
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.elipse2 {
+    position: absolute;
+    left: 30%;
+    right: 17.23%;
+    top: 10%;
+    bottom: 0%;
+    border-radius: 50%
+}
+
+.elipse2:hover{
+    filter: brightness(80%);
+}
+
+.txtcomida {
+    position: absolute;
+    left: 33.54%;
+    right: 16.74%;
+    top: 62.62%;
+    bottom: 38.46%;
+
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+.elipse3 {
+    position: absolute;
+    left: 50%;
+    right: 17.23%;
+    top: 10%;
+    bottom: 0%;
+    border-radius: 50%
+}
+
+.elipse3:hover{
+    filter: brightness(80%);
+}
+
+.txtropa {
+    position: absolute;
+    left: 54.34%;
+    right: 20.81%;
+    top: 62.65%;
+    bottom: 38.46%;
+
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #000000
+}
+
+.elipse4 {
+    position: absolute;
+    left: 70%;
+    right: 17.23%;
+    top: 10%;
+    bottom: 0%;
+    border-radius: 50%
+}
+
+.elipse4:hover{
+    filter: brightness(80%);
+}
+
+.txtaccesorios {
+    position: absolute;
+    left: 72.34%;
+    right: 20.81%;
+    top: 62.65%;
+    bottom: 38.46%;
+
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #000000
+}
+
+.serviciosPresentacion {
+    position: absolute;
+    width: 1348px;
+    height: 453px;
+    left: 0px;
+    top: 1132px;
+
+    background: #A8A8A8;
+}
+
+.txtServicios {
+    position: absolute;
+    width: 620px;
+    height: 350px;
+    left: 700px;
+    top: 50px;
+
+    background: rgba(0, 0, 0, 0.6);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.btnServicios{
+    position: absolute;
+left: 80%;
+right: 0%;
+top: 72%;
+bottom: 10.71%;
+height: 50px;
+width: 190px;
+background: #CA5239;
+opacity: 0.7;
+border-radius: 56px;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+.linkBtnServicios{
+    color:#FFFFFF
+}
+
+.btnServicios:hover{
+    background: #FF2C00;
+}
+

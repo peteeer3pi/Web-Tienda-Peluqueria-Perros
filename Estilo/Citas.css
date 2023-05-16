@@ -1,0 +1,1165 @@
+/*Igual*/
+.buscador{
+    position: absolute;
+    left: 1035px;
+    top: 87px;
+}
+
+.btnBuscar{
+    position: absolute;
+    left: 1219px;
+    top: 87px;
+}
+.cabecera {
+    position: absolute;
+    width: 1348px;
+    height: 123px;
+    left: 0px;
+    top: 0px;
+    background: #03EBEB;
+    z-index: 999; 
+}
+
+.dropdown {
+    position: absolute;
+    left: 260px;
+    top:33px;
+  }
+
+  .btnProd{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+    background-color: #03EBEB;
+    border-color: #03EBEB;
+    border: none;
+
+  }
+
+  .btnProd:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+ 
+  .dropdown-content {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 36px;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    background-color: #03EBEB;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+
+  .linkHome-Page {
+    position: absolute;
+    width: 218px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+}
+
+.linkFAQS {
+    position: absolute;
+    left: 935px;
+    top: 33px;
+
+ 
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkFAQS:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkNosotros {
+    position: absolute;
+    left: 753px;
+    top: 33px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkNosotros:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkCitas {
+    position: absolute;
+    left: 632px;
+    top: 33px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.linkCitas:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkServicios {
+    position: absolute;
+    left: 450px;
+    top: 33px;
+
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.linkServicios:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.linkJuguetes {
+    position: absolute;
+    left: 251px;
+    top: 33px;
+
+    width: 189px;
+    height: 57px;
+
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+
+.footer {
+    position: absolute;
+    width: 1348px;
+    height: 250px;
+    left: 0px;
+    top: 2185px;
+
+    background: #000000;
+}
+
+.line1{
+    position: absolute;
+left: 8.26%;
+right: 60.56%;
+top: 13.96%;
+bottom: 86.04%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(0.26deg);
+}
+
+.titFooter{
+    position: absolute;
+left: 42.85%;
+right: 42.78%;
+top: 8.55%;
+bottom: 80.91%;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+
+.line2{
+    position: absolute;
+left: 60.69%;
+right: 8.12%;
+top: 14.53%;
+bottom: 85.47%;
+
+border: 1px solid #FFFFFF;
+transform: rotate(0.26deg);
+}
+
+.titVisitanos{
+    position: absolute;
+left: 8.26%;
+right: 77.36%;
+top: 27.92%;
+bottom: 61.54%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+}
+
+.direccion{
+    position: absolute;
+left: 8.26%;
+right: 75%;
+top: 44.73%;
+bottom: 28.49%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.titContacto{
+    position: absolute;
+left: 39.44%;
+right: 39.51%;
+top: 27.92%;
+bottom: 56.13%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+}
+
+.contacto{
+    position: absolute;
+left: 39.44%;
+right: 37.71%;
+top: 44.73%;
+bottom: 23.36%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}
+
+.titEnlaces{
+    position: absolute;
+left: 65.76%;
+right: 6.74%;
+top: 27.92%;
+bottom: 55.27%;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+.derechos{
+    position: absolute;
+left: 34.79%;
+right: 32.01%;
+top: 82.34%;
+bottom: 7.41%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.facebook{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 46.87%;
+bottom: 45.87%;
+}
+
+.insta{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 63.13%;
+bottom: 39.61%;
+}
+
+.twitter{
+    position: absolute;
+left: 90.56%;
+right: 7.64%;
+top: 81.13%;
+bottom: 39.61%;
+}
+
+.citaPrevia{
+        position: absolute;
+    width: 1348px;
+    height: 1058px;
+    left: 0px;
+    top: 123px;
+    background-color: #FEFAFA;
+    
+}
+.previaImagen{
+    position: absolute;
+width: 720px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+}
+
+.nombre{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 120px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inNombre{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 0px; 
+}
+
+.mail{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inMail{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 0px; 
+}
+
+.MailError1{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+.movil{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 280px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inMovil{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 0px; 
+}
+
+.MovilError1{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+.tipoServicio{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 360px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inTipoServicio{
+    position: absolute;
+    width: 332px;
+    height: 25px;
+    left: 150px;
+    top: 5px; 
+}
+.fecha{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 440px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inFecha{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 5px; 
+}
+
+.FechaError1{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+
+
+.hora{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 520px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inHora{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 5px; 
+}
+
+.comentarios{
+    position: absolute;
+width: 323px;
+height: 36px;
+left: 720px;
+top: 600px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.btnServicios{
+    position: absolute;
+left: 73%;
+right: 0%;
+top: 70%;
+bottom: 10.71%;
+height: 50px;
+width: 315px;
+background: #CA5239;
+border: none;
+opacity: 0.7;
+border-radius: 56px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+.linkBtnServicios{
+    color:#FFFFFF
+}
+
+.btnServicios:hover{
+    background: #FF2C00;
+}
+
+
+.citaModif{
+    position: absolute;
+width: 1348px;
+height: 938px;
+left: 0px;
+top: 930px;
+background-color: #FEFAFA;
+
+}
+
+.modImagen{
+position: absolute;
+width: 674px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+}
+
+.titMod{
+    position: absolute;
+width: 546px;
+height: 56px;
+left: 751px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #F76E17;
+}
+
+.txtMod{
+    position: absolute;
+width: 531px;
+height: 123px;
+left: 754px;
+top: 80px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.idCita{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inIdCita{
+position: absolute;
+width: 323px;
+height: 25px;
+left: 150px;
+top: 0px; 
+}
+
+.idCitaError2{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+.fechaM{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 280px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inFechaM{
+position: absolute;
+width: 323px;
+height: 25px;
+left: 150px;
+top: 0px; 
+}
+
+.FechaError2{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+.horaM{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 360px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inHoraM{
+position: absolute;
+width: 323px;
+height: 25px;
+left: 150px;
+top: 0px; 
+}
+
+.inComentariosM{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 440px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+
+.btnServiciosMod{
+position: absolute;
+left: 73%;
+right: 0%;
+top: 62%;
+bottom: 10.71%;
+height: 50px;
+width: 315px;
+background: #CA5239;
+border: none;
+opacity: 0.7;
+border-radius: 56px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+
+.btnServiciosMod:hover{
+    background: #FF2C00;
+    color:#FFFFFF;
+}
+
+.citaCancel{
+    position: absolute;
+width: 1348px;
+height: 238px;
+left: 0px;
+top: 1618px;
+background-color: #FEFAFA;
+
+}
+
+.cancelImagen{
+position: absolute;
+width: 674px;
+height: 576px;
+left: 0px;
+top: 0px;
+
+}
+
+.titCanc{
+    position: absolute;
+width: 546px;
+height: 56px;
+left: 751px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+
+color: #F76E17;
+}
+
+.txtCanc{
+    position: absolute;
+width: 531px;
+height: 123px;
+left: 754px;
+top: 80px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.idCitaCancel{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.inIdCitaCancel{
+position: absolute;
+width: 323px;
+height: 25px;
+left: 150px;
+top: 0px; 
+}
+
+.idCitaError3{
+    position: absolute;
+    width: 323px;
+    height: 25px;
+    left: 150px;
+    top: 32px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color:red
+    
+}
+
+.inComentariosC{
+position: absolute;
+width: 323px;
+height: 36px;
+left: 750px;
+top: 280px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+
+
+.btnServiciosCancel{
+position: absolute;
+left: 73%;
+right: 0%;
+top: 187%;
+bottom: 10.71%;
+height: 50px;
+width: 315px;
+background: #CA5239;
+border: none;
+opacity: 0.7;
+border-radius: 56px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+
+color: #FFFFFF;
+
+}
+
+
+.btnServiciosCancel:hover{
+    background: #FF2C00;
+    color:#FFFFFF;
+}
+
+.ventanaCita{
+    position: absolute;
+width: 443px;
+height: 315px;
+left: 450px;
+top: 250px;
+
+background: #DDDDDD;
+border-radius: 20px;
+}
+
+.titVentanaCita{
+    position: absolute;
+width: 328.23px;
+height: 38.59px;
+left: 57.38px;
+top: 22.41px;
+
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+}
+
+.txtVentanaCita{
+    position: absolute;
+width: 423.49px;
+height: 173.02px;
+left: 10.33px;
+top: 60.99px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+.btnVentanaCita{
+    position: absolute;
+width: 112.48px;
+height: 42.28px;
+left: 319.45px;
+top: 264.01px;
+background: #CA5239;
+border: none;
+border-radius: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.btnVentanaCita:hover{
+    background: #FF2C00;
+    color:#FFFFFF;
+}
+
+.ventanaModCita{
+    position: absolute;
+width: 443px;
+height: 315px;
+left: 450px;
+top: 150px;
+
+background: #DDDDDD;
+border-radius: 20px;
+}
+
+.titVentanaModCita{
+    position: absolute;
+width: 328.23px;
+height: 38.59px;
+left: 57.38px;
+top: 22.41px;
+
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+}
+
+.txtVentanaModCita{
+    position: absolute;
+width: 423.49px;
+height: 173.02px;
+left: 10.33px;
+top: 60.99px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+.btnVentanaModCita{
+    position: absolute;
+width: 112.48px;
+height: 42.28px;
+left: 319.45px;
+top: 264.01px;
+background: #CA5239;
+border: none;
+border-radius: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.btnVentanaModCita:hover{
+    background: #FF2C00;
+    color:#FFFFFF;
+}
+
+.ventanaCancelarCita{
+    position: absolute;
+width: 443px;
+height: 215px;
+left: 450px;
+top: 200px;
+
+background: #DDDDDD;
+border-radius: 20px;
+}
+
+.titVentanaCancelarCita{
+    position: absolute;
+width: 328.23px;
+height: 38.59px;
+left: 57.38px;
+top: 22.41px;
+
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 700;
+font-size: 35px;
+line-height: 43px;
+text-align: center;
+
+color: #000000;
+}
+
+.txtVentanaCancelarCita{
+    position: absolute;
+width: 423.49px;
+height: 173.02px;
+left: 10.33px;
+top: 60.99px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+}
+
+.btnVentanaCancelarCita{
+    position: absolute;
+width: 112.48px;
+height: 42.28px;
+left: 319.45px;
+top: 155.01px;
+background: #CA5239;
+border: none;
+border-radius: 20px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.btnVentanaCancelarCita:hover{
+    background: #FF2C00;
+    color:#FFFFFF;
+}
+

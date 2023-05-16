@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Abrigo Scott Breathe Comfort
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="perros, tienda perros, comida perros" />
+    <link rel="stylesheet" type="text/css" href="../../Estilo/Productos.css" />
+    <script src="../../jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="../../Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="../../Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="../Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="../Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="../Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="../Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="../Servicios.html" class="linkServicios">Servicios</a>
+            <a href="../Citas.html" class="linkCitas">Citas</a>
+            <a href="../Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="../FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <<input class="buscador" type="text" id="buscador" value="">
+                <button type="button" class="btnBuscar"><img src="../../Imagenes/lupa.jpg" height="10"
+                        width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="../../Imagenes/abrigo-scott-breathe-comfort.jpg">
+            <div class="titulo">Abrigo Scott Breathe </div>
+            <div class="precio">18,75 €</div>
+            <div class="info">BREATHE-COMFORT es un tejido de alta tecnología que se fabrica bajo procedimientos
+                especiales con el fin de obtener a la vez una alta permeabilidad a la humedad y viento y un tacto suave,
+                que resulta muy cómodo de usar. Mantiene sus cualidades de conforts no importa lo extremas que lleguen a
+                ser las temperaturas
+
+                <br>Todas las tallas disponibles
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="../../Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="../../Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="../../Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

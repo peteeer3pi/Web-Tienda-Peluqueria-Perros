@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Accesorios</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="perros, tienda perros, accesorios perros" />
+    <link rel="stylesheet" type="text/css" href="../Estilo/Accesorios.css" />
+    <script src="../jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="../Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="../Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="Servicios.html" class="linkServicios">Servicios</a>
+            <a href="Citas.html" class="linkCitas">Citas</a>
+            <a href="Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <input class="buscador" type="text" id="buscador" value="">
+            <button type="button" class="btnBuscar"><img src="../Imagenes/lupa.jpg" height="10" width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="../Imagenes/accesorios-intro.jpg">
+            <div class="info">Lo que necesite tu perro</div>
+        </div>
+        <div class="catalogo">
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="titprod1"> YAGU CUNA CONFORT </div>
+            <div class="prod1">
+                <img class="imProd1" src="../Imagenes/cuna.jpg">
+            </div>
+            <div class="prod1Precio">25,16 €</div>
+            <button class="btnProd1" onclick="window.location.href='Accesorios/Cuna.html'">Descripción</a></button>
+
+            <div class="titProd2"> SOPORTE CINTURÓN DE SEGURIDAD </div>
+            <div class="prod2">
+                <img class="imProd2" src="../Imagenes/cinturon.jpg">
+            </div>
+            <div class="prod2Precio">3,99 €</div>
+            <button class="btnProd2" onclick="window.location.href='Accesorios/Cinturon.html'">Descripción</a></button>
+
+            <div class="titProd3"> MANTA KENNY AZUL </div>
+            <div class="prod3">
+                <img class="imProd3" src="../Imagenes/manta.jpg">
+            </div>
+            <div class="prod3Precio">6,64 €</div>
+            <button class="btnProd3" onclick="window.location.href='Accesorios/Manta.html'">Descripción</a></button>
+
+            <div class="titProd4"> CORREAS </div>
+            <div class="prod4">
+                <img class="imProd4" src="../Imagenes/correas.jpg">
+            </div>
+            <div class="prod4Precio">3,59 €</div>
+            <button class="btnProd4" onclick="window.location.href='Accesorios/Correas.html'">Descripción</a></button>
+
+            <div class="titProd5"> COLLARES </div>
+            <div class="prod5">
+                <img class="imProd5" src="../Imagenes/collares.jpg">
+            </div>
+            <div class="prod5Precio">2,15 €</div>
+            <button class="btnProd5" onclick="window.location.href='Accesorios/Collares.html'">Descripción</a></button>
+
+            <div class="titProd6"> SOPORTE COMEDERO-BEBEDERO </div>
+            <div class="prod6">
+                <img class="imProd6" src="../Imagenes/soporte.jpg">
+            </div>
+            <div class="prod6Precio">8,54 €</div>
+            <button class="btnProd6" onclick="window.location.href='Accesorios/Soporte.html'">Descripción</a></button>
+        </div>
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="../Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="../Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="../Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

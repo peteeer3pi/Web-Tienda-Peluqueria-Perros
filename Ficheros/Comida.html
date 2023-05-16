@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comida</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="perros, tienda perros, comida perros" />
+    <link rel="stylesheet" type="text/css" href="../Estilo/Comida.css" />
+    <script src="../jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="../Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="../Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="Servicios.html" class="linkServicios">Servicios</a>
+            <a href="Citas.html" class="linkCitas">Citas</a>
+            <a href="Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <input class="buscador" type="text" id="buscador" value="">
+            <button type="button" class="btnBuscar"><img src="../Imagenes/lupa.jpg" height="10" width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="../Imagenes/comida-intro.jpg">
+            <div class="info">La mejor gama de productos para el cuidado del perro</div>
+        </div>
+        <div class="catalogo">
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="titprod1"> SOLIDARY 22 PIENSO </div>
+            <div class="prod1">
+                <img class="imProd1" src="../Imagenes/pienso.jpg">
+            </div>
+            <div class="prod1Precio">21,95 €</div>
+            <button class="btnProd1" onclick="window.location.href='Comida/Pienso.html'">Descripción</a></button>
+
+            <div class="titProd2"> ROYAL CANIN MINI AGEING </div>
+            <div class="prod2">
+                <img class="imProd2" src="../Imagenes/royal-canin-mini-ageing.jpg">
+            </div>
+            <div class="prod2Precio">4,89 €</div>
+            <button class="btnProd2" onclick="window.location.href='Comida/Royal-Canin.html'">Descripción</a></button>
+
+            <div class="titProd3"> DIGESTIVE CARE </div>
+            <div class="prod3">
+                <img class="imProd3" src="../Imagenes/diet-digestive-care.jpg">
+            </div>
+            <div class="prod3Precio">49,64 €</div>
+            <button class="btnProd3"
+                onclick="window.location.href='Comida/Digestive-Care.html'">Descripción</a></button>
+
+            <div class="titProd4"> MHIMS FISH AND RED FRUITS </div>
+            <div class="prod4">
+                <img class="imProd4" src="../Imagenes/mhims-fish.jpg">
+            </div>
+            <div class="prod4Precio">2,90 €</div>
+            <button class="btnProd4" onclick="window.location.href='Comida/Mhims.html'">Descripción</a></button>
+
+            <div class="titProd5"> ALPHA SPIRIT </div>
+            <div class="prod5">
+                <img class="imProd5" src="../Imagenes/alpha-spirit.jpg">
+            </div>
+            <div class="prod5Precio">34,90 €</div>
+            <button class="btnProd5" onclick="window.location.href='Comida/Alpha-Spirit.html'">Descripción</a></button>
+
+            <div class="titProd6"> PALITOS MASTICABLES </div>
+            <div class="prod6">
+                <img class="imProd6" src="../Imagenes/palitos.jpg">
+            </div>
+            <div class="prod6Precio">14,67 €</div>
+            <button class="btnProd6" onclick="window.location.href='Comida/Palitos.html'">Descripción</a></button>
+        </div>
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="../Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="../Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="../Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

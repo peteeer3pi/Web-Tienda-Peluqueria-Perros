@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FAQS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="perros, tienda perros, juguetes perros, accesorios perros, peluqueria canina, comida perros, ropa perros" />
+    <link rel="stylesheet" type="text/css" href="../Estilo/FAQS.css" />
+    <script src="../jQuery/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="cabecera">
+            <a href="../Home-Page.html" class="linkHome-Page">
+                <img class="linkHome-Page" src="../Imagenes/perretes.png">
+            </a>
+            <div class="dropdown">
+                <button class="btnProd">Productos</button>
+                <div class="dropdown-content">
+                    <a href="Juguetes.html" class="linkJuguetesCab">Juguetes</a>
+                    <a href="Comida.html" class="linkComidaCab">Comida</a>
+                    <a href="Accesorios.html" class="linkAccesoriosCab">Accesorios</a>
+                    <a href="Ropa.html" class="linkRopaCab">Ropa</a>
+                </div>
+            </div>
+            <a href="Servicios.html" class="linkServicios">Servicios</a>
+            <a href="Citas.html" class="linkCitas">Citas</a>
+            <a href="Nosotros.html" class="linkNosotros">Nosotros</a>
+            <a href="FAQS.html" class="linkFAQS">Preguntas Frecuentes</a>
+            <input class="buscador" type="text" id="buscador" value="">
+            <button type="button" class="btnBuscar"><img src="../Imagenes/lupa.jpg" height="10" width="10" /></button>
+        </div>
+        <div class="intro">
+            <img class="introImagen" src="../Imagenes/preguntas.jpg">
+            <div class="info">Preguntas Frecuentes</div>
+        </div>
+        <div class="preguntas">
+            <div class="p1"></div>
+            <div class="pregunta1">¿Puedo acordar una cita por teléfono?</div>
+            <div class="respuesta1">Por supuesto, tiene a su disposición nuestros dos teléfonos de contacto 633 234 780
+                y 986 502 978</div>
+            <div class="p2"></div>
+            <div class="pregunta2">¿Puedo devolver un producto comprado?</div>
+            <div class="respuesta2">Por supuesto, puede devolver un producto que haya comprado en nuestra tienda siempre
+                que conserve el tiket y no haya quitado el precinto del artículo</div>
+            <div class="p3"></div>
+            <div class="pregunta3">¿Cuentan con un lugar donde esperar a que acabe la cita?</div>
+            <div class="respuesta3">Claro, contamos con un espacio reservado de espera con una máquina de café incluída
+                para amenizar la espera.</div>
+            <div class="p4"></div>
+            <div class="pregunta4">¿Hay alguna zona cerca del local para aparcar?</div>
+            <div class="respuesta4">Nosotros siempre recomendamos aparcar por en la parte posterior al parque situado en
+                frente de la tienda. Es un parking amplio y de uso gratuíto durante tiempo ilimitado</div>
+            <div class="p5"></div>
+            <div class="pregunta5">¿Cuentan con una sala de espera para los perros?</div>
+            <div class="respuesta5">No, es importante, que la persona encargada de cada perro espere con el a que sea su
+                turno, y esté a la hora de la finalización de la cita para evitar desajustes en la agenda.</div>
+            <div class="p6"></div>
+            <div class="pregunta6">¿Aceptais pagos por Bizum?</div>
+            <div class="respuesta6">Aunque preferimos siempre pagos en efectivo o con tarjeta bancaria, también
+                aceptamos como método de pago Bizum.</div>
+        </div>
+
+        <div class="footer">
+            <div class="line1"></div>
+            <div class="titFooter">3PI DOGS</div>
+            <div class="line2"></div>
+            <div class="titVisitanos"> VISITANOS </div>
+            <div class="direccion"> Calle Romero Ortiz, 37, Vilagarcía de Arousa, Pontevedra</div>
+            <div class="titContacto"> CONTACTANOS</div>
+            <div class="contacto">Teléfono Móvil: 633 234 780
+                Teléfono Fijo: 986 502 978
+                <br>Mail: 3pidogsoficial@gmail.com
+            </div>
+            <div class="titEnlaces"> ENLACES DE INTERÉS</div>
+            <a class="facebook" href="https://es-es.facebook.com/">
+                <img src="../Imagenes/facebook-logo.png" alt="Facebook" width="35" height="35">
+            </a>
+            <a class="insta" href="https://www.instagram.com/">
+                <img src="../Imagenes/instagram-logo.png" alt="Instagram" width="35" height="35">
+            </a>
+            <a class="twitter" href="https://twitter.com/?lang=es">
+                <img src="../Imagenes/twitter-logo.png" alt="Twitter"" width=" 35" height="35">
+            </a>
+            <div class="derechos">2022 3PI DOGS - Todos los derechos reservados</div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btnBuscar").click(function () {
+                var a = document.getElementById("buscador").value;
+                var x = 0;
+                if (a === "") {
+                    x++;
+                }
+                if (x === 0) {
+                    document.getElementById("buscador").value = "";
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
